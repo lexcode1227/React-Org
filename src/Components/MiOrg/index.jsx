@@ -1,6 +1,6 @@
 import {React, useState} from 'react'
 import { Stack, Typography } from '@mui/material'
-import addIcon from "../../assets/Btn-add.png"
+import addIcon from "../../../public/assets/Btn-add.png"
 
 const MiOrg = (props) => {
     const [ mostrar, setMostrar] = useState(true)

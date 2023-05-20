@@ -1,11 +1,17 @@
 import React from 'react'
-import BannerHeader from '../../assets/HeaderHeader_total.png'
-import "./Header.css"
+import BannerHeader from '../../../public/assets/HeaderHeader_total.png'
 
 const Header = () => {
+  const headerStyles = {
+    background: "#6278F7",
+    textAlign: "center",
+  }
+  const imgStyles = {
+    maxWidth: "100%",
+  }
   return (
-    <header className='HeaderStyles'>
-        <img className='ImgStyles'  src={BannerHeader} alt='Org'/>
+    <header style={headerStyles}>
+        <img style={imgStyles} src={BannerHeader} alt='Org'/>
     </header>
   )
 }

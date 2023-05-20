@@ -1,9 +1,8 @@
 import React from 'react'
-import Logo from "../../assets/Logo.png"
-import Fb from "../../assets/facebook.png"
-import Tw from "../../assets/twitter.png"
-import Ig from "../../assets/instagram.png"
-import FooterBg from "../../assets/footer.png"
+import Logo from "../../../public/assets/Logo.png"
+import Fb from "../../../public/assets/facebook.png"
+import Tw from "../../../public/assets/twitter.png"
+import Ig from "../../../public/assets/instagram.png"
 
 const Footer = () => {
 
@@ -18,7 +17,7 @@ const Footer = () => {
         color: "#fff",
         fontFamily: 'Montserrat',
         fontSize: "20px",
-        backgroundImage: "url(/src/assets/footer.png)",
+        backgroundImage: "url(/assets/footer.png)",
         }
     const imagStyles = { 
         padding: "0px 15px",
